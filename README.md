@@ -4,16 +4,16 @@ Quick and Dirty Interface for ESP32
 ## Description
  This is a base project that I use to create Quick and Dirty Web Interfaces for ESP32 based prototypes. 
  
- ### Features
+### Features
  - Static files are stored using SPIFFS.
  - No external dependencies in Javascript.
 
-
+### Screenshot
  ![qdi](qdi-screenshot.png)
  
 
-## Environment
-https://code.visualstudio.com/
+## Requirements
+https://code.visualstudio.com
 
 https://platformio.org
 
