@@ -1,0 +1,44 @@
+<html>
+<html lang="pt-BR">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            text-align: center;
+            font-family: "Trebuchet MS", Arial;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slider {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>QDI-Esp32</h1>
+    <h2>Quick and Dirty Interface for ESP32</h2>
+
+    <h3>Servo</h3>
+    <p>Position: <span id="servo1P">90</span></p>
+    <input type="range" min="0" max="180" class="slider" id="servo1Slider" onchange="getParam('servo1',this.value)"
+        value="90">
+
+    <h3>Motor</h3>
+    <input type="button" value="Turn clockwise on" onclick="getParam('motor1','01')">
+    <input type="button" value="Turn anticlockwise on " onclick="getParam('motor1','10')">
+    <input type="button" value="Turn off" onclick="getParam('motor1','00')">
+
+    <h3>Sensor</h3>
+    <input type="button" value="Read temperature and humidity from sensor using JSON data" onclick="readSensor()">
+    <p>Temperature: <span id="temperature1P">%PLACEHOLDER_TEMPERATURE% ºC</span></p>
+    <p>Humidity: <span id="humidity1P">%PLACEHOLDER_HUMIDITY% %</span></p>
+    
+    <script src="main.js"></script>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
