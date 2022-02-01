@@ -7,6 +7,9 @@ Quick and Dirty Interface for ESP32
  ### Features
  - Static files are stored using SPIFFS.
  - No external dependencies in Javascript.
+
+
+ ![qdi](qdi-screenshot.png)
  
 
 ## Environment
