@@ -1,6 +1,6 @@
 # qdi-esp32 – Quick and Dirty Interface for ESP32 Prototypes
 
-**qdi-esp32** – *Quick and Dirty Interface for ESP32* – because sometimes you just need to get things working without overengineering. This project is a barebones template that lets your ESP32 serve up a simple web UI with minimal fuss.
+**qdi-esp32** – *Quick and Dirty Interface for ESP32 Prototypes* – because sometimes you just need to get things working without overengineering. This project is a barebones template that lets your ESP32 serve up a simple web UI with minimal fuss.
 
 Perfect for rapid prototyping, hardware hacking, or impressing your friends with a Wi-Fi-enabled LED toggle. No dependency hell – just raw HTML, a pinch of JavaScript, and your ESP32 doing what it does best.
 
