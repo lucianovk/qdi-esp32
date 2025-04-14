@@ -1,15 +1,17 @@
-# qdi-esp32 – Simple Web Interface for ESP32 Prototypes
+# qdi-esp32 – Quick and Dirty Interface for ESP32 Prototypes
 
-**qdi-esp32** is a minimal yet functional template project designed to help you quickly build and test web-based interfaces on ESP32 boards. Ideal for prototyping and educational projects, it serves a static web UI from the ESP32 itself, with no external JavaScript libraries required.
+**qdi-esp32** – *Quick and Dirty Interface for ESP32* – because sometimes you just need to get things working without overengineering. This project is a barebones template that lets your ESP32 serve up a simple web UI with minimal fuss.
+
+Perfect for rapid prototyping, hardware hacking, or impressing your friends with a Wi-Fi-enabled LED toggle. No dependency hell – just raw HTML, a pinch of JavaScript, and your ESP32 doing what it does best.
 
 ---
 
 ## ✨ Features
 
-- **Built-in Web Interface**: Serves HTML, CSS, and JS files directly from the ESP32 using SPIFFS.
-- **Self-Contained**: No need for external JS frameworks or CDN dependencies.
-- **Access Point Mode**: Creates its own Wi-Fi network so clients can connect directly to the ESP32.
-- **Plug-and-Play**: Ready-to-use with minimal setup, perfect for fast prototyping or demonstrations.
+- **Built-in Web Interface**: Serves static HTML, CSS, and JS directly from the ESP32 using SPIFFS.
+- **No External Dependencies**: Pure browser-native code – because simple is sexy.
+- **Wi-Fi Access Point Mode**: Your ESP32 becomes its own hotspot. No router? No problem.
+- **Quick and Dirty by Design**: Get it running fast, tweak as you go, and clean it up later (or not).
 
 ---
 
